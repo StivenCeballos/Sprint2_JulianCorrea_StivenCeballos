@@ -58,9 +58,9 @@ function successFunction(data) {
     
   }
 
-  imgMain.src = "/Fotos/"+ informacion[0].nombre + ".jpg";
+  imgMain.src = "./Fotos/"+ informacion[0].nombre + ".jpg";
     personas.addEventListener('change', (e)=> {
-    imgMain.src = "/Fotos/"+ informacion[e.target.value].nombre + ".jpg";
+    imgMain.src = "./Fotos/"+ informacion[e.target.value].nombre + ".jpg";
       
     console.log(e);
     });
