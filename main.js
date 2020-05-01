@@ -58,9 +58,9 @@ function successFunction(data) {
     
   }
 
-  imgMain.src = "./Fotos/"+ informacion[0].nombre + ".jpg";
+  imgMain.src = "/Fotos/"+ informacion[0].nombre + ".jpg";
     personas.addEventListener('change', (e)=> {
-    imgMain.src = "./Fotos/"+ informacion[e.target.value].nombre + ".jpg";
+    imgMain.src = "/Fotos/"+ informacion[e.target.value].nombre + ".jpg";
       
     console.log(e);
     });
@@ -252,7 +252,7 @@ function successFunction(data) {
     personaView.className = "personaV";
     personaView.style.marginBottom = `${user.similitud*4}px`
 
-    personaView.style.backgroundImage = 'url("./Fotos/' + user.nombre + '.jpg")';
+    personaView.style.backgroundImage = 'url("/Fotos/' + user.nombre + '.jpg")';
 
 
 
