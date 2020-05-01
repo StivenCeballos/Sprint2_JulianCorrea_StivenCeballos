@@ -12,7 +12,7 @@ var informacion = [];
 
 //Cargar el archivo
 $.ajax({
-  url: "/sprint2.csv",
+  url: "./sprint2.csv",
   dataType: "text"
 }).done(successFunction);
 
