@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sprint 2</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="title">Sprint 2 - Sistema de recomendación</div>
+    <section class="principal">
+        
+    <article>
+        <div class="Scontainer">
+            <div class="container">
+                
+                
+
+                
+    
+                <select id="persona">
+                </select>
+                <button id="btn_calcular"> Calcular similitud </button>
+    
+    
+                <br>
+                <div class="arriba">
+                    <p>Edad</p>
+                    <input class="edad" id="edad" type="range" min="0.001" max="1" step="0.001" value="0.5">
+                    <output id="outputEdad"></output>
+    
+                </div>
+    
+    
+                <div class="container">
+    
+                    <div class="arriba">
+                        <br>
+                        <p>Peso</p>
+                        <input id="peso" type="range" min="0.001" max="1" step="0.001" value="0.5">
+                        <output id="outputPeso"></output>
+                    </div>
+    
+                    <div class="arriba">
+                        <br>
+                        <p>Altura</p>
+                        <input id="altura" type="range" min="0.001" max="1" step="0.001" value="0.5">
+                        <output id="outputAltura"></output>
+                    </div>
+    
+                    <div class="arriba">
+                        <br>
+                        <p>Mascotas</p>
+                        <input id="mascotas" type="range" min="0.001" max="1" step="0.001" value="0.5">
+                        <output id="outputMascotas"></output>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+    <article>
+        <div class="vs">Semejanza</div>
+        <img src="" class="imgPrincipal" alt="" width="200px">
+        <hr>
+        <div class="lista"></div>
+        
+        
+
+    </article>
+
+    </section>
+
+    
+
+    
+
+
+    <script src="/librerias/jquery-3.4.1.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
