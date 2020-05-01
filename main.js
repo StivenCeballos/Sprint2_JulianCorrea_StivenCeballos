@@ -252,7 +252,7 @@ function successFunction(data) {
     personaView.className = "personaV";
     personaView.style.marginBottom = `${user.similitud*4}px`
 
-    personaView.style.backgroundImage = 'url("/Fotos/' + user.nombre + '.jpg")';
+    personaView.style.backgroundImage = 'url("./Fotos/' + user.nombre + '.jpg")';
 
 
 
