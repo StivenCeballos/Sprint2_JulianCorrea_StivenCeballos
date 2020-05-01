@@ -12,7 +12,7 @@ var informacion = [];
 
 //Cargar el archivo
 $.ajax({
-  url: "./datos.csv",
+  url: "/sprint2.csv",
   dataType: "text"
 }).done(successFunction);
 
@@ -58,15 +58,9 @@ function successFunction(data) {
     
   }
 
-<<<<<<< HEAD
-  imgMain.src = "./fotos/"+ informacion[0].nombre + ".jpg";
+  imgMain.src = "/Fotos/"+ informacion[0].nombre + ".jpg";
     personas.addEventListener('change', (e)=> {
-    imgMain.src = "./fotos/"+ informacion[e.target.value].nombre + ".jpg";
-=======
-  imgMain.src = "./Fotos/"+ informacion[0].nombre + ".jpg";
-    personas.addEventListener('change', (e)=> {
-    imgMain.src = "./Fotos/"+ informacion[e.target.value].nombre + ".jpg";
->>>>>>> 01817509186fac6e892e64d251891b1f1353d1d9
+    imgMain.src = "/Fotos/"+ informacion[e.target.value].nombre + ".jpg";
       
     console.log(e);
     });
@@ -258,11 +252,7 @@ function successFunction(data) {
     personaView.className = "personaV";
     personaView.style.marginBottom = `${user.similitud*4}px`
 
-<<<<<<< HEAD
-    personaView.style.backgroundImage = 'url("./fotos/' + user.nombre + '.jpg")';
-=======
-    personaView.style.backgroundImage = 'url("./Fotos/' + user.nombre + '.jpg")';
->>>>>>> 01817509186fac6e892e64d251891b1f1353d1d9
+    personaView.style.backgroundImage = 'url("/Fotos/' + user.nombre + '.jpg")';
 
 
 

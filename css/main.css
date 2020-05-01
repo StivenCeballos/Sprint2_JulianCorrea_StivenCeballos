@@ -19,7 +19,7 @@ hr{
 .vs{
   position: absolute;
   top: 500px;
-  margin-left: 55px;
+  left: 360px;
   transform: rotate(-90deg);
   font-family: sans-serif;
   font-size: 20px;
